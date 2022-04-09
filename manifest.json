@@ -1,0 +1,15 @@
+{
+    "name": "Siddiqur AdBlocker",
+    "version": "1.0",
+    "description": "Adblocker that doesn't get detected",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["blocked_sites.js", "blocking_status.js"]
+    },
+    "icons": {
+        "16": "icons/logo_16x16.png",
+        "48": "icons/logo_48x48.png",
+        "128": "icons/logo_128x128.png"
+    },
+    "manifest_version": 2
+}
